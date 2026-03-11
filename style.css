@@ -1,0 +1,80 @@
+*{
+    font-size: 18px;
+    color: #1C1C1C!important;
+}
+.navbar{
+   background-color: #E6D3B3 !important ;
+   height: 8vh;
+}
+.nav-link{
+    color: #3A2F2F;
+}
+
+.nav-link.active{
+    color: #C9A227 !important;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color: #3A2F2F;
+    font-weight: 600;
+}
+
+/* Cards */
+.card{
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+/* Card hover effect */
+.card:hover{
+    transform: translateY(-6px);
+}
+
+/* Card headers */
+.card-header{
+    background-color: #E6D3B3;
+    font-weight: 600;
+    color: #3A2F2F;
+}
+
+/* Featured card */
+.card.featured{
+    border: 2px solid #C9A227;
+    transform: scale(1.05);
+}
+
+/* Primary button */
+.btn-primary {
+    background-color: #C9A227 !important;
+    border: none !important;
+    color: white !important;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #b8951f !important;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Outline button */
+.btn-outline-primary {
+    border-color: #C9A227 !important;
+    color: #C9A227 !important;
+    background-color: transparent !important;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-outline-primary:hover {
+    background-color: #C9A227 !important;
+    color: white !important;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
